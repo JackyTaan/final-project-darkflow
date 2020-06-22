@@ -1,0 +1,7 @@
+#!/usr/local/opt/python/bin/python3.7
+
+import sys
+from darkflow.cli import cliHandler
+
+cliHandler(sys.argv)
+
