@@ -7,8 +7,9 @@ Title:	YOLO v.1 (CNN) Object Detection & classification.
 Topics:	Ứng dụng trong computer vision, sử dụng thuật toán chính là CNN
 
 Descriptions:	Input sẽ là các tấm hình ở sample_img/... và file labels.txt đặt tên nhãn tương ứng của object. Khi train xong sẽ trả ra output sample_img/out/ & json output cùng thư mục lưu nhãn & thôn số tương ứng . Sử dụng trọng số weights đã train để predict bounding box và class của các object trong hình. 
-  
-Github Link: 
+
+Pretrainned file: https://github.com/digitalbrain79/pyyolo/blob/master/tiny-yolo.weights 
+Github Link: https://github.com/JackyTaan/final-project-darkflow 
 
 Framework:	Darknet ( based o Darkflow of author={Trieu, Trinh Hoang} )
 
