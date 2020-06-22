@@ -22,6 +22,8 @@ stride = 1
 pad = 1
 activation = linear
 
+Run with command: flow --model cfg/tiny-yolo.cfg --load bin/tiny-yolo.weights --demo video.mp4 --saveVideo
+
 Pretrained Models:	Sử dụng weight đã được train sẵn https://pjreddie.com/media/files/tiny-yolo.weights
 
 Datasets:	Mô hình được train với bộ dữ liệu coco. Ngoài ra còn có các tập dữ liệu có thể sử dụng: PASCAL VOC, Open Images Dataset, …. 
